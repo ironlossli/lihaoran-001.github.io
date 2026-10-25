@@ -1,0 +1,9 @@
+{
+  "name": "haoran-li-academic-homepage",
+  "private": true,
+  "version": "1.0.0",
+  "description": "李豪然的个人学术主页，部署于 GitHub Pages。",
+  "type": "module",
+  "scripts": { "build": "node scripts/build.mjs", "check": "node scripts/check.mjs" },
+  "engines": { "node": ">=18" }
+}

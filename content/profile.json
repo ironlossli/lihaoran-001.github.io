@@ -1,0 +1,40 @@
+{
+  "name": "李豪然",
+  "nameEn": "Haoran Li",
+  "role": "有机化学硕士研究生",
+  "institution": "中国科学院大学",
+  "institute": "中国科学院福建物质结构研究所",
+  "email": "lihaoran@fjirsm.ac.cn",
+  "github": "https://github.com/ironlossli",
+  "updated": "2026.10",
+  "intro": "我目前在中国科学院大学 / 福建物质结构研究所攻读有机化学硕士。研究兴趣聚焦于人工智能与化学的交叉：从分子三维几何表征到电子结构计算，探索数据驱动方法与物理化学知识如何共同帮助我们理解分子。",
+  "focus": [
+    { "title": "分子几何与机器学习", "en": "Molecular learning", "description": "等变神经网络、图神经网络与分子表征学习，面向三维分子性质与光谱预测。", "tags": ["O(3) 等变性", "3D 分子表征", "光谱预测"] },
+    { "title": "电子结构与激发态", "en": "Quantum chemistry", "description": "结合量子化学计算与分子性质分析，研究激发态、能量转移和化学反应机理。", "tags": ["DFT / TD-DFT", "电子结构", "反应机理"] },
+    { "title": "分子相互作用与模拟", "en": "Molecular simulation", "description": "通过分子对接、相互作用分析和多尺度模拟，理解分子识别、溶剂化及界面行为。", "tags": ["分子动力学", "分子对接", "多尺度模拟"] }
+  ],
+  "education": [
+    { "period": "2024.09 — 2027.07", "school": "中国科学院大学", "detail": "中国科学院福建物质结构研究所", "major": "有机化学", "degree": "硕士研究生", "note": "预计 2027 年 7 月毕业" },
+    { "period": "2020.10 — 2024.07", "school": "东北电力大学", "detail": "", "major": "应用化学", "degree": "学士", "note": "" }
+  ],
+  "publications": [
+    { "year": "2026", "venue": "IJCAI–ECAI", "title": "Environment-Aware Multiscale Geometric Interaction for Equivariant Molecular Spectral Prediction", "authors": "Haoran Li, Weiran Cui, Minghui Li", "status": "已接收", "role": "第一作者 / 通讯作者", "description": "构建环境感知等变神经网络，引入 O(3) 不变量与多尺度几何交互机制，面向三维分子光谱预测。", "contribution": "主导课题设计、模型构建、实验验证、消融分析与论文撰写。" },
+    { "year": "2023", "venue": "J. Am. Chem. Soc.", "title": "Excited-Multimer Mediated Supramolecular Upconversion on Multicomponent Lanthanide-Organic Assemblies", "authors": "Xiao-Fang Duan, Li-Peng Zhou, Hao-Ran Li, et al.", "status": "", "role": "第三作者", "description": "研究超分子上转换体系的电子结构与激发态性质，分析配合物能级、跃迁特征和能量转移过程。", "contribution": "承担全部理论计算工作，为上转换机理与能量转移机制提供计算依据。" },
+    { "year": "2022", "venue": "ACS Omega", "title": "Prediction of •OH-Initiated and •NO₃-Initiated Transformation Products of Polycyclic Aromatic Hydrocarbons by Electronic Structure Approaches", "authors": "Xue-Mei Chen, Hao-Ran Li, Xi-Lai Feng, et al.", "status": "", "role": "第二作者", "description": "基于电子结构方法研究多环芳烃的大气转化，预测分子稳定性、反应倾向及潜在转化路径。", "contribution": "承担全部理论计算工作，完成量子化学计算、性质分析与反应机理建模。" }
+  ],
+  "projects": [
+    { "period": "2024.08 — 2025.02", "type": "学术实践", "title": "CADD 药物设计与蛋白–配体相互作用研究", "description": "从批量分子对接到结合模式分析，建立候选分子筛选与相互作用解析流程。", "bullets": ["基于 AutoDock Vina 与 LeDock 搭建对接流程，完成候选小分子与靶标蛋白的批量筛选。", "使用 PLIP 与 LigPlot+ 分析氢键、疏水作用、π–π 堆积及盐桥，辅助 STING 抑制剂结合模式分析。"], "tools": ["AutoDock Vina", "LeDock", "PLIP", "LigPlot+"] },
+    { "period": "2024.01 — 2024.07", "type": "毕业设计", "title": "水系锌基电池界面多尺度模拟", "description": "结合电子结构、分子动力学与电场模拟，研究溶剂化层重构与界面行为。", "bullets": ["使用 Gaussian 执行 DFT 计算，提取 HOMO / LUMO 特征，分析添加剂和溶剂分子的还原稳定性。", "基于 GROMACS 与 COMSOL 开展分子动力学和电场模拟，分析锌离子溶剂化层重构及枝晶抑制机理。"], "tools": ["Gaussian", "GROMACS", "COMSOL", "DFT"] }
+  ],
+  "skills": [
+    { "title": "AI for Chemistry", "items": ["等变神经网络", "图神经网络", "分子表征学习", "3D 分子性质预测", "少样本学习"] },
+    { "title": "编程与数据", "items": ["Python", "PyTorch", "RDKit", "Pandas", "NumPy"] },
+    { "title": "计算与模拟", "items": ["Gaussian", "ORCA", "xTB", "Multiwfn", "GROMACS", "AutoDock Vina", "PLIP", "Linux", "SLURM"] }
+  ],
+  "awards": [
+    { "title": "中国科学院大学三好学生", "detail": "2026" },
+    { "title": "第十七届「挑战杯」吉林省二等奖", "detail": "第一负责人" },
+    { "title": "第七届「互联网 +」大学生创新创业大赛铜奖", "detail": "第三负责人" },
+    { "title": "校级优秀学生奖学金及实验竞赛奖项", "detail": "多次获奖" }
+  ]
+}
