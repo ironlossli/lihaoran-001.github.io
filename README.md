@@ -15,7 +15,7 @@ npm run build
 npm run check
 ```
 
-`index.html` 和 `cv.html` 是生成后的静态文件，修改数据后需要一并提交。照片位于 `assets/portrait.jpg`；配色、布局和打印样式位于 `assets/style.css`。无需 npm install。
+`index.html` 和 `cv.html` 是生成后的静态文件，修改数据后需要一并提交。配色、布局和打印样式位于 `assets/style.css`。无需 npm install。
 
 学术成果、作者角色、接收状态、教育经历和获奖记录来自本人提供的简历；论文检索链接明确指向 Google Scholar 搜索，不代表 DOI 或出版社文章链接。硕士阶段的 2027.07 标为预计毕业时间。
 
@@ -41,4 +41,4 @@ python3 -m http.server 4317 --bind 127.0.0.1
 
 ## 内容来源
 
-首版内容整理自本人提供的《李豪然_AI4Science计算化学实习_简历.pdf》，并由本人确认 UCAS、中文为主。头像直接提取自同一 PDF。公开站点保留学术联系邮箱，不包含原简历手机号；原 PDF 未上传至仓库。
+首版内容整理自本人提供的《李豪然_AI4Science计算化学实习_简历.pdf》，并由本人确认 UCAS、中文为主。公开站点保留学术联系邮箱，不包含原简历手机号和照片；原 PDF 未上传至仓库。
